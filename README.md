@@ -19,9 +19,13 @@ This repository contains data about GitHub users in Tokyo with over 200 follower
 # Key Insights from Data
 
 "dennybritz,wasabeef,dai-shi,rui314,domenic" are top 5 users
+
 "kana,kakutani,mootoh,lhl,walf443" are the 5 earliest registered GitHub users in 'Tokyo'
+
 "mit,apache-2.0,other" are the 3 most popular license among these users
+
 Most of the developers works at "GOOGLE"
+
 "Javascript" is the programming language that is most popular among these users
 "Rust" is the programming language that is the second most popular among users who joined after '2020'
 "Assembly" language has the highest average number of stars per repository
