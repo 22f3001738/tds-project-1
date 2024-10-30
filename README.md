@@ -27,16 +27,27 @@ This repository contains data about GitHub users in Tokyo with over 200 follower
 Most of the developers works at "GOOGLE"
 
 "Javascript" is the programming language that is most popular among these users
+
 "Rust" is the programming language that is the second most popular among users who joined after '2020'
+
 "Assembly" language has the highest average number of stars per repository
+
 "blueimp,dai-shi,asahilina,pilcrowonpaper,marcan" are the top 5 in terms of 'leader_strength'
+
 The correlation between the number of followers and the number of public repositories among users in Tokyo is "0.051"
+
 Creating more repos help users get more followers
+
 People typically enable projects and wikis together
+
 Hireable users don't follow more people than those who are not hireable
+
 Positive impact of the length of their bio
+
 "azu,suzuki-shunsuke,yuiseki,xuwei-k,zchee" are the top 5 users who created the most repositories on weekends
+
 People who are hireable share their email addresses more often
+
 "Kato,Tanaka" are most common surname
 
 
