@@ -18,18 +18,23 @@ This repository contains data about GitHub users in Tokyo with over 200 follower
 
 # Key Insights from Data
 
-## Repository Popularity:
+## dennybritz,wasabeef,dai-shi,rui314,domenic are top 5 users
+## kana,kakutani,mootoh,lhl,walf443 are the 5 earliest registered GitHub users in Tokyo
+## mit,apache-2.0,other are the 3 most popular license among these users? Ignore missing licenses
+## most of the developers works at GOOGLE
+## Javascript is the programming language that is most popular among these users
+## Rust is the programming language that is the second most popular among users who joined after 2020
+## Assembly language has the highest average number of stars per repository
+## blueimp,dai-shi,asahilina,pilcrowonpaper,marcan are the top 5 in terms of leader_strength
+## The correlation between the number of followers and the number of public repositories among users in Tokyo is 0.051
+## Creating more repos help users get more followers
+## People typically enable projects and wikis together
+## Hireable users don't follow more people than those who are not hireable
+## Positive impact of the length of their bio
+## azu,suzuki-shunsuke,yuiseki,xuwei-k,zchee are the top 5 users who created the most repositories on weekends
+## People who are hireable share their email addresses more often
+## Kato,Tanaka are most common surname
 
-Average Stars & Watchers: The average count is approximately 26 for both stars and watchers, indicating moderate popularity across repositories.
-Most Common Language: JavaScript is the most frequently used language, likely reflecting a strong focus on web development.
-Projects and Wikis Enabled: Around 96% of repositories have projects enabled, and 85% have wikis enabled, showing that the majority of repositories are well-equipped for collaboration and documentation.
-
-## User Engagement:
-
-Average Public Repositories: Users have an average of around 134 repositories, indicating a high level of content generation.
-Follower & Following Metrics: On average, users have about 630 followers and follow around 233 others, suggesting a robust network of connections.
-Top Users by Followers: Users like Denny Britz and Daichi Furiya lead in follower count, enhancing their visibility and influence.
-Hireable Users: 182 users are listed as hireable, which could be valuable for recruiters looking for skilled developers.
 
 
 # Action Recommendations
@@ -39,9 +44,6 @@ Hireable Users: 182 users are listed as hireable, which could be valuable for re
 Improve Repository Visibility: Users can increase their repository stars and watchers by engaging more with the JavaScript community or other popular language communities. Including more documentation and projects can also boost visibility.
 Networking Opportunities: Users can connect with highly followed individuals (e.g., top 5 users) to expand their own network.
 
-## For Recruiters:
-
-Focus on Hireable Users: With 182 users available for hire, recruiters can target them based on specific skills (e.g., JavaScript) and follower count for finding experienced candidates.
 
 ## For Community Growth:
 
