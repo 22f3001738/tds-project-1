@@ -146,7 +146,7 @@ if __name__ == "__main__":
     main()
 ```
 
-## Key Insights from Data (...Analysis...)
+## Key Insights from Data
 
 1. **Top 5 Users by Followers**: `dennybritz`, `wasabeef`, `dai-shi`, `rui314`, `domenic`
 2. **Earliest Registered Users**: `kana`, `kakutani`, `mootoh`, `lhl`, `walf443`
@@ -161,6 +161,39 @@ if __name__ == "__main__":
 8. **Additional Findings**:
    - Hireable users often share their email addresses.
    - Users with bio tend to have higher visibility.
+
+
+## Some Interesting Findings from users.csv data :
+
+**1.Influential users :**
+
+Some of the users are considered influential or popular based on their large followers and public_repos.
+
+**2.Inactive/Unhireable users :**
+
+Although inactive/unhireable users also make up one-third of total users, so many of its profiles do not look at new chances.
+
+**3.Geo Distribution :**
+
+The location field describes many users based in major tech hubs, which can offer potential insight into distributions of tech ecosystems.
+
+**4.Users Bio :**
+
+One of the most startling findings of this analysis was that the developers with very short and precise bios received more followers than those developers with very long and elaborate descriptions.
+
+## Some Interesting Findings from repository.csv data :
+
+**1.Repositories Popularity :**
+
+The average number of stars by a stargazer is zero, and the most of the repositories have a minimal count. However, 25% of the repositories have at least 2 stars, and the most popular repository has 58,479 stars.
+
+**2.Most popular programming languages :**
+
+JavaScript (16.7%), Ruby (10%), Python (7.8%), Go (6.4%), and TypeScript (6.3%). This is a point of showing that developers typically make use of flexible web-centric languages, such as JavaScript and TypeScript.
+
+**3.License Preferences :**
+
+Most of the repositories (54.5%) use MIT License, possibly because of their permissive nature. Among other licenses are Apache 2.0 (15%), and some GNU as well as BSD licenses.
 
 ## Action Recommendations
 
