@@ -181,7 +181,7 @@ if __name__ == "__main__":
 
     One of the most startling findings of this analysis was that the developers with very short and precise bios received more followers than those developers with very long and elaborate descriptions.
 
-## Some Interesting Findings from repository.csv data :
+## Some Interesting Findings from repositories.csv data :
 
 **1.Repositories Popularity :**
 
