@@ -146,7 +146,7 @@ if __name__ == "__main__":
     main()
 ```
 
-## Key Insights from Data
+## Key Insights from Analysis
 
 1. **Top 5 Users by Followers**: `dennybritz`, `wasabeef`, `dai-shi`, `rui314`, `domenic`
 2. **Earliest Registered Users**: `kana`, `kakutani`, `mootoh`, `lhl`, `walf443`
