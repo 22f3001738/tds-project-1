@@ -7,7 +7,7 @@ This repository contains data about GitHub users in Tokyo with over 200 follower
 1. `users.csv`: Contains information about 545 GitHub users in Tokyo with over 200 followers
 2. `repositories.csv`: Contains information about 67148 public repositories from these users
 3. `data_scrap.py`: Python script used to collect this data
-4. `Project_1_TDS.ipynb`: Colab notebook contains python code for all 16 questions in project 1
+4. `Project-1-Analysis.ipynb`: Colab notebook contains python code and analysis result for all 16 questions in project 1
 
 ## Data Collection
 
@@ -17,7 +17,7 @@ This repository contains data about GitHub users in Tokyo with over 200 follower
 - Up to 500 most recently pushed repositories per user
 
 
-# Key Insights from Data
+# Key Insights from Data (....Analysis....)
 
 "dennybritz,wasabeef,dai-shi,rui314,domenic" are top 5 users
 
