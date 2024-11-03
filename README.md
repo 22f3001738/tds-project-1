@@ -31,6 +31,7 @@ Code :
 
   GITHUB_TOKEN = 'my_access_token'
   HEADERS = {"Authorization": f"token {GITHUB_TOKEN}"}
+  
 2. Helper function to clean company names :
 
 'the clean_company_name' function removes the leading "@" sign, removes leading and trailing white space and forces to upper case.
