@@ -28,26 +28,27 @@ The explaination for the python code is given below:
 This code sets up the GitHub API token and headers for authentication, bypassing the stricter rate limits on unauthenticated access.
 
 Code :
-
+```python
   GITHUB_TOKEN = 'my_access_token'
-  HEADERS = {"Authorization": f"token {GITHUB_TOKEN}"}
+  HEADERS = {"Authorization": f"token {GITHUB_TOKEN}"}```
   
 2. Helper function to clean company names :
 
 'the clean_company_name' function removes the leading "@" sign, removes leading and trailing white space and forces to upper case.
 
 Code :
-
+```python
   def clean_company_name(company):
       if company:
           company = company.strip().lstrip('@').upper()
-      return company
+      return company```
+      
 3.FETCHING USER DATA :
 
 'fetch_users' function fetches users in a given city (default: Tokyo) with at least a specified follower count from the GitHub API. In fact it fetches the users page by page until there are no more results, pausing for a second after every page to avoid rate limits. For each of the found users, the user's full details such as login, name, location, company, email, etc., are retrieved with an additional API request.
 
 Code :
-
+```python
   def fetch_users(city="Tokyo", min_followers=200):
       users = []
       page = 1
@@ -73,13 +74,14 @@ Code :
                   'created_at': user_data['created_at'],
               })
           page += 1
-          time.sleep(1)
+          time.sleep(1)```
+          
 4.Repository Data Fetching :
 
 'fetch_repositories' function fetches from the GitHub API all the public repositories of each user, page by page. Details drawn will include name, date created, number of stargazers, and license per repository. The function returns a list of repositories related to the user, and every type of data is stored in dictionaries.
 
 Code :
-
+```python
   def fetch_repositories(user_login):
       repositories = []
       page = 1
@@ -94,13 +96,14 @@ Code :
                   'created_at': repo['created_at'],
                   'stargazers_count': repo['stargazers_count'],
                   'watchers_count': repo['watchers_count'],
-                  'language': repo
+                  'language': repo```
+                  
 5.Saving Data to CSV :
 
 'save_users_to_csv' and 'save_repositories_to_csv' saves user and repository information to two different CSVs. DictWriter is used to ensure each dictionary's keys map to the CSV headers.
 
 Code :
-
+```python
   def save_users_to_csv(users, filename="users.csv"):
     with open(filename, mode="w", newline="", encoding="utf-8") as file:
       writer = csv.DictWriter(file, fieldnames=users[0].keys())
@@ -111,13 +114,15 @@ Code :
       with open(filename, mode="w", newline="", encoding="utf-8") as file:
           writer = csv.DictWriter(file, fieldnames=repositories[0].keys())
           writer.writeheader()
-          writer.writerows(repositories)
+          writer.writerows(repositories)```
+
 6.Main Execution (main function) :
 
 This orchestrates the entire process: fetch the user, save them into a file named users.csv; fetch all repositories from these users, save that to repositories.csv.
 
 Code :
 
+```python
   def main():
     print("Fetching users...")
     users = fetch_users()
@@ -135,7 +140,7 @@ Code :
     print(f"Saved {len(all_repositories)} repositories to repositories.csv")
 
   if __name__ == "__main__":
-      main()
+      main()```
 
 
 # Key Insights from Data (....Analysis....)
